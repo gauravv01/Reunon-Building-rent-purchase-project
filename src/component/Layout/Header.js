@@ -7,7 +7,6 @@ const Header = props=>{
 <Fragment>
     <header className={classes.header}>
         <h3>
-        <span>icon-</span>
         <span>Estatery</span>
         </h3>
         <div className={classes.button}>

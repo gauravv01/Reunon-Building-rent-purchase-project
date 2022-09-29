@@ -28,20 +28,20 @@ function Propertylist() {
   const filterlisthandler = () => {
       let listitem = Cartctx.list.filter((e) => {
         return (
-          (rooms != 0 ? e.rooms == rooms : e.rooms >= rooms) &&
-          (baths != 0 ? e.baths == baths : e.baths >= baths) &&
+          (e.rooms >= rooms ? e.rooms >= rooms : e.rooms === rooms ) &&
+          (e.baths >= baths ? e.baths >= baths : e.baths === baths) &&
           e.area >= area
         );
       });
-      if (listitem.length === 0) {
-        setistrue(false);
-        return
-      }
       if(listitem.length>0){
         setistrue(true);
       setlistitems (listitem);
       return
       } 
+      if (listitem.length === 0) {
+        setistrue(false);
+        return
+      }
   };
 
  

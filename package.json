@@ -22,7 +22,6 @@
     "eject": "react-scripts eject",
     "url": "http://localhost:8080"
   },
- 
   "eslintConfig": {
     "extends": [
       "react-app",
