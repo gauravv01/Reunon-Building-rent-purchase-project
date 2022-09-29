@@ -20,9 +20,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "url": "http://localhost:8080",
-    "predeploy": "npm run build",
-      "deploy": "gh-pages -d build"
+    "url": "http://localhost:8080"
   },
  
   "eslintConfig": {
