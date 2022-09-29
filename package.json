@@ -1,5 +1,6 @@
 {
   "name": "reunion-project",
+  "homepage": "https://github.com/gauravv01/Reunon-Building-rent-purchase-project",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,8 +20,11 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "url": "http://localhost:8080"
+    "url": "http://localhost:8080",
+    "predeploy": "npm run build",
+      "deploy": "gh-pages -d build"
   },
+ 
   "eslintConfig": {
     "extends": [
       "react-app",
