@@ -9,6 +9,7 @@ import classes from './Propertheader.module.css';
  const CartCtx= useContext(CartContext);
 
 const InputHandler=(value)=>{
+    
 CartCtx.Searchlist(value);
 }
 
