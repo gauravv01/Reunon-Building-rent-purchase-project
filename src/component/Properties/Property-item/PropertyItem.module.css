@@ -1,0 +1,35 @@
+.div{
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 0.75rem;
+}
+
+.div-grid{
+    margin-top: 1rem;
+    box-shadow: 1px solid black;
+}
+
+.div-icons{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.h1{
+    margin: 0;
+    /* text-align: center */
+    padding-left: 1rem;
+}
+
+.p{
+    margin: 0;
+    color: rgb(92, 91, 91);
+}
+
+.No-results{
+    text-align: center;
+    color: white;
+    margin-top: 2rem;
+    padding-left: 6rem;
+}

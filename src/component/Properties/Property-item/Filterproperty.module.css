@@ -1,0 +1,40 @@
+.maindiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;  
+    background-color: white;
+    height: 3rem;
+    padding: 0.75rem;
+    border-radius: 5px;
+}
+
+.maindiv div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.div1{
+    width: 80%;
+}
+
+.maindiv div section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 1.5rem;
+    border-right:  1px solid #ccc;
+    padding: 0.5rem 3rem 0.5rem 0.5rem;
+
+}
+
+.maindiv div section label{
+    color: #ccc;
+}
+
+.maindiv div section select{
+    border: 0;
+}
+
+
+
